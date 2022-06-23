@@ -9,49 +9,55 @@
 </head>
 <body>
     <header>
-        <div>
-            <img class="logo" width="60" src="./borboleta.jpg"  alt="borboleta">
-            <small>Melhores  alunos do VemSer de todos os tempos!!!
-            </small>
+        <div class="container">
+            <div>
+                <img class="logo" width="60" src="./borboleta.jpg"  alt="borboleta">
+                <small>Melhores  alunos do VemSer de todos os tempos!!!
+                </small>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./home.html" target="_self">Home</a></li>
+                    <li><a href="./about.html" target="_self">Sobre</a></li>
+                    <li><a href="./contact.html" target="_self">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="./home.html" target="_self">Home</a></li>
-                <li><a href="./about.html" target="_self">Sobre</a></li>
-                <li><a href="./contact.html" target="_self">Contato</a></li>
-            </ul>
-        </nav>
     </header>
-    <h1 class="titulo-contato">Contato</h1>
-    <form class="box-form">
-        <div>
-            <label for="username">Digite seu nome completo:</label>
-            <input type="text"  placeholder="digite seu nome completo" name="username"/> <br><br>
-        </div>
-        <div>
-            Digite seu e-mail:
-            <input type="digite seu email email" placeholder="e-mail" class="caixa-texto"/><br><br>
-        </div>
-        <div>
-            Qual o motivo do contato:
-            <select name="contato">
-                <option value=""> Problemas no site</option>
-            </select>
-        </div>
-        Sua Menssagem <br>
-        <textarea name="mensagem"  cols="30" rows="10" value="mensagem"></textarea>
-        <br><br>
-        <button class="salvar"><strong>Salvar</strong></button>
-    </form>
+    <div class="container">
+        <h1 class="titulo-contato">Contato</h1>
+        <form class="box-form">
+            <div>
+                <label for="username">Digite seu nome completo:</label>
+                <input type="text"  placeholder="digite seu nome completo" name="username"/> <br><br>
+            </div>
+            <div>
+                Digite seu e-mail:
+                <input type="digite seu email email" placeholder="e-mail" class="caixa-texto"/><br><br>
+            </div>
+            <div>
+                Qual o motivo do contato:
+                <select name="contato">
+                    <option value=""> Problemas no site</option>
+                </select>
+            </div>
+            Sua Menssagem <br>
+            <textarea name="mensagem"  cols="30" rows="10" value="mensagem"></textarea>
+            <br><br>
+            <button class="salvar"><strong>Salvar</strong></button>
+        </form>
+    </div>
     <footer>
-        <nav>
-            <ul>
-                <li><a href="./home.html" target="_self">Home</a></li>
-                <li><a href="./about.html" target="_self">Sobre</a></li>
-                <li><a href="./contact.html" target="_self">Contato</a></li>
-            </ul>
-        </nav>
-        <address>Av. Andarai 531 - Porto Alegre</address>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="./home.html" target="_self">Home</a></li>
+                    <li><a href="./about.html" target="_self">Sobre</a></li>
+                    <li><a href="./contact.html" target="_self">Contato</a></li>
+                </ul>
+            </nav>
+            <address>Av. Andarai 531 - Porto Alegre</address>
+        </div>
    </footer>      
 </body>
 </html>
