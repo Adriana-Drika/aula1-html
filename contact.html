@@ -4,37 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Contact</title>
 </head>
 <body>
     <header>
-        <p> <img src="./borboleta.jpg" width="30" alt="borboleta">Melhores  alunos do VemSer de todos os tempos!!! </p>
+        <div>
+            <img class="logo" width="60" src="./borboleta.jpg"  alt="borboleta">
+            <small>Melhores  alunos do VemSer de todos os tempos!!!
+            </small>
+        </div>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="./home.html" target="_self">Home</a></li>
                 <li><a href="./about.html" target="_self">Sobre</a></li>
                 <li><a href="./contact.html" target="_self">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <p>
-        Digite seu nome completo: 
-        <input type="text" placeholder="nome completo"/>
-    </p>    
-    <p>
-        Digite seu e-mail:
-        <input type="email" placeholder="e-mail"/>
-    </p>
-    <p>
-        Qual o motivo do contato:
-        <select name="contato">
-            <option value=""> HTML é easy demais</option>
-          </select>
-    </p>
-    Sua Menssagem <br>
-    <textarea name="mensagem"  cols="30" rows="10" value="kkkkk"></textarea>
-    <br><br>
-    <button>Salvar</button>
+    <h1 class="titulo-contato">Contato</h1>
+    <form class="box-form">
+        <div>
+            <label for="username">Digite seu nome completo</label>
+            <input type="text" placeholder="nome completo" name="username"/>
+        </div>
+        <div>
+            Digite seu e-mail:
+            <input type="email" placeholder="e-mail"/>
+        </div>
+        <div>
+            Qual o motivo do contato:
+            <select name="contato">
+                <option value=""> HTML é easy demais</option>
+            </select>
+        </div>
+        Sua Menssagem <br>
+        <textarea name="mensagem"  cols="30" rows="10" value="kkkkk"></textarea>
+        <br><br>
+        <button>Salvar</button>
+    </form>
     <footer>
         <nav>
             <ul>
