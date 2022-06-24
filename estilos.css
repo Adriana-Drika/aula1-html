@@ -69,8 +69,8 @@ section.box-mapa {
 }
 
 .box-borboletas {
-    width: 350px;
-    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .card-borboleta {
